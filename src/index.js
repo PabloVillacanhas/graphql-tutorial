@@ -8,6 +8,7 @@ import Query from './resolvers/Query.js';
 import Mutation from './resolvers/Mutation.js';
 import User from './resolvers/User.js';
 import Link from './resolvers/Link.js';
+import Vote from './resolvers/Vote.js';
 import { getUserId } from './utils.js';
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
